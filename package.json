@@ -1,0 +1,23 @@
+{
+  "name": "cubismo",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "watch": "tsc --build tsconfig.json -w"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.8"
+  },
+  "dependencies": {
+    "@types/lowdb": "^1.0.7",
+    "bcrypt": "^3.0.6",
+    "catalogist": "^1.0.0",
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0",
+    "lowdb-crypto-adapter": "0.0.1",
+    "shortid": "^2.2.14",
+    "stream-buffers": "^3.0.2"
+  }
+}
